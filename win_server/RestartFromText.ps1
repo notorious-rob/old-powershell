@@ -1,0 +1,1 @@
+﻿Get-Content "C:\Powershell\Computers.txt" |%{restart-computer -computername $_ -force}
